@@ -1,0 +1,17 @@
+exclude: ["README.md", "changelog.md"]
+permalink: /:categories/:year/:month/:day/:title
+auto: false
+title: Kurtlau的记事本
+production_url: 127.0.0.1
+author:
+  name: Kurtlau
+  email: neurogenic@gmail.com
+  github: kurtlau.github.com
+categories_path: /categories.html
+tags_path: /tags.html
+rss_path: /rss.xml
+comments:
+  provider: youyan
+analytics:
+  provider: google 
+
