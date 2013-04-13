@@ -1,7 +1,12 @@
 ---
 layout: default
-title: Kurtlau的记事本
 description: Index page of my blogs
 ---
 
-<h1>HELLO! 你好！</h1>
+<div id="posts">
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
