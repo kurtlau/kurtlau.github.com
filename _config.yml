@@ -1,5 +1,7 @@
 exclude: ["README.md"]
 pygments: true
+markdown: redcarpet
+auto: false
 title: Kurtlau的记事本
 permalink: /:year/:month/:day/:title
 author:
