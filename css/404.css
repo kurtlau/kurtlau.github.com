@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background:#F4F6EE;
+  font-family: Verdana, STXihei, 'STHeiti Light', Sans-serif;
+  font-size:14px;
+  text-align: center;
+}
+
+a {
+	color:#2970A6;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:visited {
+  color:#2970A6;
+}
+
+img {
+  padding-top: 1.5em;
+  border: 0;
+}
+
+.back {
+  padding: 1em;
+  font-size: 180%;
+}
